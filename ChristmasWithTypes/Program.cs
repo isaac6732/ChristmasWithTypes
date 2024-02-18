@@ -25,7 +25,7 @@ namespace ChristmasWithTypes
 
             foreach (var present in xmas.Presents)
             {
-                Console.WriteLine($"    {present}");
+                Console.WriteLine($"{present}");
             }
 
             Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
